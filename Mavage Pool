@@ -9,7 +9,12 @@ def MavagePool3d(x, a, b, c, d, e, f):
     #kernel_size=(a, b, c), stride=(d, e, f)
     return nn.MaxPool3d((a, b, c), (d, e, f))(x) + nn.AvgPool3d((a, b, c), (d, e, f))(x)
 
-# Example usage with a=2, b=2, c=2, d=2, e = 2, f = 2
+#2D
+# Example usage with a=2, b=2, c=2, d=2
 g = torch.rand(1, 1, 50, 100)
-g = MavagePool2d(g, 2, 2, 2, 2)  
+g = MavagePool2d(g, 2, 2, 2, 2)
+
+#3D
+#Example usage with a=2, b=2, c=2, d=2, e = 2, f = 2
+g = torch.rand(1, 1, 32, 50, 100)
 g = MavagePool3d(g, 2, 2, 2, 2, 2, 2)
