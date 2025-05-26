@@ -11,10 +11,10 @@ def MavagePool3d(x, a, b, c, d, e, f):
 
 #2D
 # Example usage with a=2, b=2, c=2, d=2
-g = torch.rand(1, 1, 50, 100)
-g = MavagePool2d(g, 2, 2, 2, 2)
+x = torch.rand(1, 1, 50, 100)
+x = MavagePool2d(x, 2, 2, 2, 2)
 
 #3D
 #Example usage with a=2, b=2, c=2, d=2, e = 2, f = 2
-g = torch.rand(1, 1, 32, 50, 100)
-g = MavagePool3d(g, 2, 2, 2, 2, 2, 2)
+y = torch.rand(1, 1, 32, 50, 100)
+y = MavagePool3d(y, 2, 2, 2, 2, 2, 2)
