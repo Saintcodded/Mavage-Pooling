@@ -7,4 +7,4 @@ Citation: Ayomide Abe, Mpumelelo Nyathi, Akintunde Okunade. Lung cancer diagnosi
 
 ![](https://github.com/Saintcodded/Mavage-Pooling/blob/main/Mavage%20Pool%20png.jpg).
 
-![](https://github.com/Saintcodded/SULBA-Stepwise-Upper-and-Lower-Boundaries-Augmention/blob/main/SULBA.png).
+![](https://github.com/Saintcodded/Mavage-Pooling/blob/main/CNN%20with%20Mavage%20Pool.jpg).
